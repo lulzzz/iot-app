@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Net.Test.SDK" Version="15.3.0" />
+    <PackageReference Include="Akka.TestKit" Version="1.3.2" />
+    <PackageReference Include="Akka.TestKit.Xunit2" Version="1.3.2" />
+    <PackageReference Include="FluentAssertions" Version="4.19.4" />
+    <PackageReference Include="Xunit" Version="2.3.1" />
+    <PackageReference Include="Xunit.Runner.Visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IotApp\IotApp.csproj" />
+  </ItemGroup>
+
+</Project>
